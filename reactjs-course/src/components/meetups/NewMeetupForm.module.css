@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 12px 16px;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.control label {
+  font-size: 18px;
+}
+
+.control input,
+textarea {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  background: none;
+  height: 40px;
+  font-size: 16px;
+}
+
+.control textarea {
+  height: 80px;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.control input:focus,
+textarea:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  background: rgba(99, 99, 99, 0.22);
+}

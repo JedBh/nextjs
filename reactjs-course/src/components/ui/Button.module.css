@@ -1,0 +1,19 @@
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 12px 10px;
+}
+
+.actions button {
+  padding: 10px 22px;
+  border-radius: 9px;
+  border: 1px solid #b0c5e6;
+  background: #b0c5e6;
+}
+
+.actions button:hover {
+  border: 1px solid #95b2e0;
+  background: #95b2e0;
+  cursor: pointer;
+}

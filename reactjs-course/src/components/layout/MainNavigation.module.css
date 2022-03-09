@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: crimson;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  padding: 18px 16px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.list li a:hover {
+  color: rgb(238, 238, 238);
+}
+
+.badge {
+  padding: 3px 12px;
+  margin: 0 3px;
+  background: rgba(220, 220, 255, 22%);
+  border-radius: 12px;
+}
